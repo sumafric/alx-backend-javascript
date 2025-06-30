@@ -1,0 +1,20 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "alx-writing comprehensive unittests in JS",
+  "main": "0-calcul.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "sumafric",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "chai": "^4.4.1",
+    "jsdom": "^9.0",
+    "mocha": "^10.4.0",
+    "mocha-jsdom": "~1.1.0",
+    "mocha-multi": "^1.0.1"
+  }
+}
